@@ -6,8 +6,8 @@ import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
-    ListComponent,
-    HeroComponent
+    HeroComponent,
+    ListComponent
   ],
   exports: [
     ListComponent,
