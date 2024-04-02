@@ -29,12 +29,13 @@ export class DbzService {
 
     const newCharacter: Character = {... character}
 
-    this.characters.push(character);
+    this.characters.push(newCharacter);
   }
 
   // onDeleteCharacter(id: number){
   //   this.characters.splice(id, 1);
   // }
+
   deleteCharacterById(id: string){
     this.characters = this.characters.filter(character => character.id !== id);
   }

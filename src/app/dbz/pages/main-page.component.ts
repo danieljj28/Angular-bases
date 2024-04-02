@@ -7,6 +7,7 @@ import { Character } from '../interfaces/character.interface';
   templateUrl: './main-page.component.html',
 })
 export class MainPageComponent{
+
   constructor(private dbzService: DbzService){}
 
   get characters(): Character[]{

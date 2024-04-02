@@ -15,7 +15,7 @@ export class  ListComponent {
   @Input()
   public characterList: Character[] = []
 
-  onDeleteCharacter(id: string): void{
+  onDeleteCharacter(id?: string): void{
     this.onDelete.emit(id);
   }
 }
