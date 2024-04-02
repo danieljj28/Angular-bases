@@ -22,6 +22,6 @@ export class AddCharacterComponent {
 
     this.onNewCharacter.emit(this.character)
 
-    this.character = {name: '', power: 0};
+    this.character = {id: '', name: '', power: 0};
   }
 }
